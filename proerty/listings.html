@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Listings - EstatePlatform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">EstatePlatform</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="add-property.html">Add Property</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="dark-mode-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Available Properties</h2>
+        
+        <div class="filters">
+            <input type="text" id="filter-loc" class="form-control" placeholder="Filter by Location" style="width:auto;">
+            <select id="filter-type" class="form-control" style="width:auto;">
+                <option value="">All Types</option>
+                <option value="House">House</option>
+                <option value="Flat">Flat</option>
+                <option value="Villa">Villa</option>
+                <option value="PG">PG</option>
+            </select>
+            <select id="filter-price" class="form-control" style="width:auto;">
+                <option value="">All Prices</option>
+                <option value="low">Under1,000</option>
+                <option value="mid">1,000 - 2,000</option>
+                <option value="high">Above 2,000</option>
+            </select>
+            <select id="sort-price" class="form-control" style="width:auto;">
+                <option value="">Sort By</option>
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+            <button id="filter-btn" class="btn">Apply Filters</button>
+        </div>
+
+        <div id="listings-grid" class="property-grid">
+         </div>
+    </div>
+
+    <footer><p>&copy; 2026 EstatePlatform. All rights reserved.</p></footer>
+    <div id="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>

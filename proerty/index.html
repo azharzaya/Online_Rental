@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiten's Real Estate</title>
+    <link rel="stylesheet" href="/proerty/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">EstatePlatform</div>
+        <ul class="nav-links">
+            <li><a href="/proerty/index.html">Home</a></li>
+            <li><a href="/proerty/listings.html">Listings</a></li>
+            <li><a href="/proerty/add-property.html">Add Property</a></li>
+            <li><a href="/proerty/contact.html">Contact</a></li>
+            <li><a href="/proerty/Login 2/index.html">Login</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="dark-mode-toggle" title="Toggle Dark Mode">🌙</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Find Your Dream Home</h1>
+        <p>Discover houses, flats, villas, and PG.</p>
+        <form id="home-search" class="search-bar">
+            <input type="text" id="search-loc" placeholder="Location (e.g., bhubaneswar)">
+            <select id="search-type">
+                <option value="">All Types</option>
+                <option value="House">House</option>
+                <option value="Flat">Flat</option>
+                <option value="Villa">Villa</option>
+                <option value="PG">PG</option>
+            </select>
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Featured Properties</h2>
+        <div id="featured-grid" class="property-grid">
+            </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EstatePlatform. All rights reserved.</p>
+    </footer>
+
+    <div id="toast">Message Here</div>
+    <script src="script.js"></script>
+</body>
+</html>
