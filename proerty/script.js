@@ -1,6 +1,6 @@
 // Sample Data to initialize the platform
 const initialProperties = [
-    { id: '1', title: 'Luxury Villa with Pool', price: 2500, location: 'Los Angeles', type: 'Villa', description: 'Beautiful 4 bed, 3 bath villa.', image: '/Users/subhashkumar/Downloads/PHOTO-2026-03-25-14-39-46.jpg' },
+    { id: '1', title: 'Luxury Villa with Pool', price: 2500, location: 'Los Angeles', type: 'Villa', description: 'Beautiful 4 bed, 3 bath villa.', image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80' },
     { id: '2', title: 'Modern City Flat', price: 1200, location: 'New York', type: 'Flat', description: 'Cozy 2 bed flat in the city center.', image: 'https://images.unsplash.com/photo-1502672260266-1c1de2d966ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
     { id: '3', title: 'Suburban Family House', price: 1800, location: 'Chicago', type: 'House', description: 'Spacious 3 bed house with a large backyard.', image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
     { id: '4', title: 'Student PG', price: 500, location: 'Boston', type: 'PG', description: 'Shared accommodation for students. Utilities included.', image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' }
